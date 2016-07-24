@@ -18,7 +18,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
  *
  * @author tmeinel
  */
-public class HelloWord extends HttpServlet{
+public class HelloWorld extends HttpServlet{
     
  
     private static final long serialVersionUID = -3043828122010838408L;
