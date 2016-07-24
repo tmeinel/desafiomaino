@@ -21,6 +21,8 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class HelloWord extends HttpServlet{
     
  
+    private static final long serialVersionUID = -3043828122010838408L;
+ 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("index.jsp").forward(req, resp);
