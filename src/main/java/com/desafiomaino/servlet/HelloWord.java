@@ -25,7 +25,7 @@ public class HelloWord extends HttpServlet{
  
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        req.getRequestDispatcher("hello.jsp").forward(req, resp);
     }
  
     public static void main(String[] args) throws Exception {
