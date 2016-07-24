@@ -1,1 +1,1 @@
-web: sh target/bin/webapp
+ java -cp target/classes:target/dependency/* HelloWorld
